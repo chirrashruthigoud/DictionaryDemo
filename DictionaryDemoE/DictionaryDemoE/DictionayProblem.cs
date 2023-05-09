@@ -48,7 +48,8 @@ namespace DictionaryDemo
                 Console.WriteLine("{0} : {1}", kala.Key, kala.Value);
             }
             dict.Clear();
-
+            // DELETE: remove an element from the dictionary
+            // CREATE: add new elements to the dictionary
             foreach (KeyValuePair<int, String> kala in dic)
             {
                 Console.WriteLine("{0} : {1}", kala.Key, kala.Value);

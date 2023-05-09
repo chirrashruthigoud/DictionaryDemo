@@ -11,9 +11,13 @@ namespace DictionaryDemoE
     {
         static void Main(string[] args)
         {
-            DictionaryProblem name = new DictionaryProblem();
-            name.DictionaryMethod();
-            Console.ReadKey();
+            //DictionaryProblem name = new DictionaryProblem();
+            //name.DictionaryMethod();
+            //Console.ReadKey();
+
+            DictionaryExample example = new DictionaryExample();
+            example.Dictionarymethod();
+            Console.ReadLine();
         }
     }
 }
